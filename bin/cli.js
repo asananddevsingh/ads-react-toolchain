@@ -37,7 +37,5 @@ if (!installedDeps) {
   process.exit(-1);
 }
 
-console.log(`Congratulations! You are ready`);
-
 console.log(chalk.green(`Congratulations! You are ready.`));
 console.log(`cd ${chalk.cyan(appName)} && run ${chalk.cyan('npm start')} `);
